@@ -1,15 +1,17 @@
 import { Link } from "lucide-react";
 
 function TripCard({ productList, setInput }) {
-  const handleCopyUrl = (url) => {
-    navigator.clipboard
-      .writeText(url)
-      .then(() => {
-        alert("คัดลอก URL แล้ว!");
-      })
-      .catch((err) => {
-        console.error("Failed to copy: ", err);
-      });
+  const handleCopyUrl = async (url) => {
+    try {
+      await navigator.clipboard.writeText(url);
+      alert("คัดลอก URL แล้ว!");
+    } catch (err) {
+      console.error("Failed to copy: ", err);
+    }
+  };
+
+  const handleTagClick = (tag) => {
+    setInput((prevTag) => `${prevTag} ${tag}`.trim());
   };
 
   return (
@@ -58,7 +60,7 @@ function TripCard({ productList, setInput }) {
                     <span
                       key={index}
                       className="underline  cursor-pointer"
-                      onClick={() => setInput(tag)}
+                      onClick={() => handleTagClick(tag)}
                     >
                       {tag}
                     </span>
