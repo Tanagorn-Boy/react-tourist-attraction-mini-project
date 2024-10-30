@@ -29,7 +29,6 @@ function TripCard({ productList, setInput }) {
             <div className="w-2/3 leading-relaxed text-xl pl-7">
               <div>
                 <a href={item.url} target="_blank">
-                  {" "}
                   {item.title}
                 </a>
               </div>
@@ -51,7 +50,7 @@ function TripCard({ productList, setInput }) {
                     อ่านต่อ{" "}
                   </a>
                 </div>
-                <div className="flex space-x-6 text-sm py-2">
+                <div className="flex space-x-5 text-sm py-2">
                   <div>
                     <p>หมวด</p>
                   </div>
