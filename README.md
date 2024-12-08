@@ -1,4 +1,4 @@
-# 🌍 Tourist: Explore Thailand
+# 🌍 Tourist: Explore the World
 
 **Tourist** is your ultimate travel companion. Discover popular tourist destinations, get curated recommendations, and find inspiration for your next adventure. Whether you're a seasoned traveler or planning your first trip, **Tourist** makes it easy to explore the world.
 
@@ -7,7 +7,7 @@
 
 ## 🚀 Features
 
-- ✈️ **Curated Destination Lists**: Explore handpicked tourist spots across Thailand.
+- ✈️ **Curated Destination Lists**: Explore handpicked tourist spots worldwide.
 - 📍 **Interactive Map Integration**: Locate destinations with ease.
 - ⭐ **Recommendations Engine**: Personalized suggestions based on your preferences.
 - 🌟 **Responsive Design**: Seamlessly browse on any device.
